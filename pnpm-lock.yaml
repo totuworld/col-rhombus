@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@langchain/community':
         specifier: ^0.2.17
-        version: 0.2.17(@mozilla/readability@0.5.0)(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1)
+        version: 0.2.17(@mozilla/readability@0.5.0)(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0)
       '@langchain/textsplitters':
         specifier: ^0.0.3
-        version: 0.0.3(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+        version: 0.0.3(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       '@mozilla/readability':
         specifier: ^0.5.0
         version: 0.5.0
       langchain:
         specifier: ^0.2.8
-        version: 0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1)
+        version: 0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0)
       pdf-parse:
         specifier: ^1.1.1
         version: 1.1.1
@@ -164,8 +164,8 @@ importers:
   packages/hmr:
     dependencies:
       ws:
-        specifier: 8.17.1
-        version: 8.17.1
+        specifier: 8.18.0
+        version: 8.18.0
     devDependencies:
       '@chrome-extension-boilerplate/tsconfig':
         specifier: workspace:*
@@ -3728,8 +3728,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -3925,16 +3925,16 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@langchain/community@0.2.17(@mozilla/readability@0.5.0)(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1)':
+  '@langchain/community@0.2.17(@mozilla/readability@0.5.0)(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0)':
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
-      '@langchain/openai': 0.1.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))
+      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
+      '@langchain/openai': 0.1.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))
       binary-extensions: 2.2.0
       expr-eval: 2.0.2
       flat: 5.0.2
       js-yaml: 4.1.0
-      langchain: 0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1)
-      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      langchain: 0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0)
+      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       uuid: 9.0.1
       zod: 3.23.8
       zod-to-json-schema: 3.23.1(zod@3.23.8)
@@ -3942,7 +3942,7 @@ snapshots:
       '@mozilla/readability': 0.5.0
       ignore: 5.2.4
       pdf-parse: 1.1.1
-      ws: 8.17.1
+      ws: 8.18.0
     transitivePeerDependencies:
       - '@gomomento/sdk-web'
       - axios
@@ -3953,13 +3953,13 @@ snapshots:
       - peggy
       - pyodide
 
-  '@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)':
+  '@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)':
     dependencies:
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.12
-      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       ml-distance: 4.0.1
       mustache: 4.2.0
       p-queue: 6.6.2
@@ -3971,13 +3971,13 @@ snapshots:
       - langchain
       - openai
 
-  '@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)':
+  '@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)':
     dependencies:
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.12
-      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3))(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3))(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       ml-distance: 4.0.1
       mustache: 4.2.0
       p-queue: 6.6.2
@@ -3989,9 +3989,9 @@ snapshots:
       - langchain
       - openai
 
-  '@langchain/openai@0.0.34(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))':
+  '@langchain/openai@0.0.34(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))':
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       js-tiktoken: 1.0.12
       openai: 4.52.3
       zod: 3.23.8
@@ -4000,9 +4000,9 @@ snapshots:
       - encoding
       - langchain
 
-  '@langchain/openai@0.1.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))':
+  '@langchain/openai@0.1.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))':
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       js-tiktoken: 1.0.12
       openai: 4.52.3
       zod: 3.23.8
@@ -4011,9 +4011,9 @@ snapshots:
       - encoding
       - langchain
 
-  '@langchain/openai@0.2.1(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))':
+  '@langchain/openai@0.2.1(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))':
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       js-tiktoken: 1.0.12
       openai: 4.52.3
       zod: 3.23.8
@@ -4022,17 +4022,17 @@ snapshots:
       - encoding
       - langchain
 
-  '@langchain/textsplitters@0.0.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)':
+  '@langchain/textsplitters@0.0.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)':
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       js-tiktoken: 1.0.12
     transitivePeerDependencies:
       - langchain
       - openai
 
-  '@langchain/textsplitters@0.0.3(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)':
+  '@langchain/textsplitters@0.0.3(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)':
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       js-tiktoken: 1.0.12
     transitivePeerDependencies:
       - langchain
@@ -5540,17 +5540,17 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1):
+  langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0):
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
-      '@langchain/openai': 0.0.34(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))
-      '@langchain/textsplitters': 0.0.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
+      '@langchain/openai': 0.0.34(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))
+      '@langchain/textsplitters': 0.0.3(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       binary-extensions: 2.2.0
       js-tiktoken: 1.0.12
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
       langchainhub: 0.0.11
-      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       ml-distance: 4.0.1
       openapi-types: 12.1.3
       p-retry: 4.6.2
@@ -5561,22 +5561,22 @@ snapshots:
     optionalDependencies:
       ignore: 5.2.4
       pdf-parse: 1.1.1
-      ws: 8.17.1
+      ws: 8.18.0
     transitivePeerDependencies:
       - encoding
       - openai
 
-  langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1):
+  langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0):
     dependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
-      '@langchain/openai': 0.2.1(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))
-      '@langchain/textsplitters': 0.0.3(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
+      '@langchain/openai': 0.2.1(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))
+      '@langchain/textsplitters': 0.0.3(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       binary-extensions: 2.2.0
       js-tiktoken: 1.0.12
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
       langchainhub: 0.0.11
-      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3))(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
+      langsmith: 0.1.36(@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3))(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
       ml-distance: 4.0.1
       openapi-types: 12.1.3
       p-retry: 4.6.2
@@ -5587,14 +5587,14 @@ snapshots:
     optionalDependencies:
       ignore: 5.2.4
       pdf-parse: 1.1.1
-      ws: 8.17.1
+      ws: 8.18.0
     transitivePeerDependencies:
       - encoding
       - openai
 
   langchainhub@0.0.11: {}
 
-  langsmith@0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3):
+  langsmith@0.1.36(@langchain/core@0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3))(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3):
     dependencies:
       '@types/uuid': 9.0.8
       commander: 10.0.1
@@ -5602,11 +5602,11 @@ snapshots:
       p-retry: 4.6.2
       uuid: 9.0.1
     optionalDependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
-      langchain: 0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1)
+      '@langchain/core': 0.2.14(langchain@0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
+      langchain: 0.2.3(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0)
       openai: 4.52.3
 
-  langsmith@0.1.36(@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3))(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3):
+  langsmith@0.1.36(@langchain/core@0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3))(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3):
     dependencies:
       '@types/uuid': 9.0.8
       commander: 10.0.1
@@ -5614,8 +5614,8 @@ snapshots:
       p-retry: 4.6.2
       uuid: 9.0.1
     optionalDependencies:
-      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1))(openai@4.52.3)
-      langchain: 0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.17.1)
+      '@langchain/core': 0.2.14(langchain@0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0))(openai@4.52.3)
+      langchain: 0.2.8(ignore@5.2.4)(openai@4.52.3)(pdf-parse@1.1.1)(ws@8.18.0)
       openai: 4.52.3
 
   language-subtag-registry@0.3.22: {}
@@ -6932,7 +6932,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.17.1: {}
+  ws@8.18.0: {}
 
   yallist@4.0.0: {}
 
