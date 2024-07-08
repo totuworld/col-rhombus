@@ -31,9 +31,10 @@ async function summarizeCurrentPage(selectedParams: { model: { name: string }; t
       type: 'map_reduce', // you can choose from map_reduce, stuff or refine
       verbose: true, // to view the steps in the console
     });
-    const response = await chain.call({
+    const response = await chain.invoke({
       input_documents: docs,
     });
+    // response를 받아서 특정한 언어로 번역하는 작업을 추가할 수 있습니다.
     return {
       title: pageContent.title,
       text: response.text,
